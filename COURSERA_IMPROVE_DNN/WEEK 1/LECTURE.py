@@ -57,4 +57,36 @@
 # "A single model can be used to simulate having a large number of different network architectures by randomly dropping out nodes during training. "
 # Source: https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/
 
+## Understand Dropout ##
+# Shrink weight 
+# USually applied in CV 
 
+
+## Other Regularization Method ##
+# Data Augmentation 
+
+# Early Stopping 
+# Stop at a point where neural network doing the best iteration 
+# Find the W and b to get the minimized J(W,b)
+# Try not to overfitting
+
+########## MODULE 3 ##########
+## Normalizing Training Sets ##
+
+
+## Why Normalize inputs? ##
+# Make plot more symmetric 
+
+
+# Vanishing/ Exploding Gradients #
+# Linear Activation Function 
+
+# If weight greater than 1: Increase exponentially 
+# If weight smaller than 1: Decrease exponentially 
+
+
+## Weight Initialization for Deep Networks ##
+## Single neuron example
+# W[l] = np.random.rand(shape) * np.sqrt(2/n[l-1])
+
+# Xavier initialization  
