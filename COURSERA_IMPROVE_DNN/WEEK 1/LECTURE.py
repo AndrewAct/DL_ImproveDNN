@@ -90,3 +90,19 @@
 # W[l] = np.random.rand(shape) * np.sqrt(2/n[l-1])
 
 # Xavier initialization  
+
+## 1/20/20 ##
+# Numerical Apporiximation of Gradients #
+# The idea is nt so difficult 
+# Just like derivatibve
+# So omitted here
+
+# Gradient Checking #
+# Take dW[1], db[1]... and reshape into a big vector 
+
+# Gradient Checking Implementation Notes #
+# - Do not use in training - only to debug 
+# - If algorithm fails grad check, look at components to try to identify bug
+# - Remember regularization 
+# - Does not work with drop out
+# - Run at random initialization; perhaps again after some training 
